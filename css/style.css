@@ -23,7 +23,7 @@ body {
 .header {
   display: flex;
   width: 100%;
-  padding: 4rem 4rem 0 0;
+  padding: 4rem 15.3rem 0 0;
   justify-content: space-between; }
   .header-logo {
     width: 35.7rem;
@@ -64,7 +64,7 @@ body {
 .content {
   width: 100%;
   display: flex;
-  padding: 4.2rem;
+  padding: 0 15.3rem 4rem 4rem;
   justify-content: space-between; }
   .content-cart {
     width: 12.8rem;
@@ -72,7 +72,7 @@ body {
     align-self: flex-end; }
   .content-container {
     display: flex;
-    width: 80%;
+    width: 70%;
     justify-content: space-between; }
   .content-text {
     align-self: center;
