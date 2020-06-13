@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+  @media only screen and (max-width: 68.75em) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  line-height: 1.6;
+  min-height: 100vh; }
+
+.header {
+  display: flex;
+  width: 100%;
+  padding: 4rem 4rem 0 0;
+  justify-content: space-between; }
+  .header-logo {
+    width: 35.7rem;
+    height: auto; }
+  .header-container {
+    width: 78.8rem; }
+    .header-container > h3 {
+      font: 400 3.4rem "Lobster";
+      letter-spacing: 2.34px;
+      text-align: end;
+      width: 78.8rem;
+      line-height: 36px; }
+    .header-container > p {
+      font: normal 400 1.9rem/3.1rem "Lobster";
+      text-align: end;
+      padding-bottom: 3.8rem; }
+
+.menu {
+  position: relative; }
+  .menu-border {
+    width: 100%;
+    height: auto; }
+    @media only screen and (max-width: 37.5em) {
+      .menu-border {
+        width: 60%; } }
+  .menu-container {
+    position: absolute;
+    top: 4rem;
+    left: 7rem;
+    width: 70rem;
+    display: flex;
+    justify-content: space-around; }
+    .menu-container > a {
+      text-decoration: none;
+      color: #151514;
+      font: 400 2.4rem "Lobster"; }
+
+.content {
+  width: 100%;
+  display: flex;
+  padding: 4.2rem;
+  justify-content: space-between; }
+  .content-cart {
+    width: 12.8rem;
+    height: 26.1rem;
+    align-self: flex-end; }
+  .content-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between; }
+  .content-text {
+    align-self: center;
+    text-align: end;
+    display: flex;
+    flex-direction: column; }
+    .content-text > h2 {
+      color: #990066;
+      font: 400 5rem/5.5rem "Lobster";
+      width: 213px;
+      align-self: flex-end; }
+    .content-text > p {
+      font: 300 2.4rem 'Open Sans Condensed', sans-serif;
+      letter-spacing: 3.12px;
+      width: 265px; }
+  .content-product {
+    display: flex;
+    width: 50.6rem;
+    justify-content: flex-end;
+    position: relative; }
+    .content-product__border {
+      width: 58.6rem;
+      height: auto;
+      z-index: 10; }
+    .content-product__img {
+      position: absolute; }
+
+.footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25.7rem; }
+  .footer > p {
+    font: 400 2.4rem 'Open Sans Condensed', sans-serif; }

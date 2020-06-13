@@ -1,0 +1,55 @@
+@import "../utils/variables";
+
+.header {
+  display: flex;
+  width: 100%;
+  padding: 4rem 4rem 0 0;
+  justify-content: space-between;
+
+  &-logo {
+    width: 35.7rem;
+    height: auto;
+  }
+
+  &-container {
+    width: 78.8rem;
+    &>h3 {
+      font: 400 3.4rem "Lobster";
+      letter-spacing: 2.34px;
+      text-align: end;
+      width: 78.8rem;
+      line-height: 36px;
+    }
+
+    &>p {
+      font: normal 400 1.9rem/3.1rem "Lobster";
+      text-align: end;
+      padding-bottom: 3.8rem;
+    }
+  }
+}
+
+.menu {
+  position: relative;
+  &-border {
+    width: 100%;
+    height: auto;
+    @media only screen and (max-width: $bp-small) {
+      width: 60%;
+    }
+  }
+  &-container {
+    position: absolute;
+    top: 4rem;
+    left: 7rem;
+    width: 70rem;
+    display: flex;
+    justify-content: space-around;
+
+    &>a {
+      text-decoration: none;
+      color: $primary-text-black;
+      font: 400 2.4rem "Lobster";
+    }
+  }
+}

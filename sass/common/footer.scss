@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25.7rem;
+
+  &-contacts {
+  }
+
+  &>p {
+    font: 400 2.4rem 'Open Sans Condensed', sans-serif;
+  }
+}
