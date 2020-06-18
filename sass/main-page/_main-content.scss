@@ -1,0 +1,54 @@
+@import "../utils/variables";
+
+.content {
+  width: 100%;
+  display: flex;
+  padding: 0 15.3rem 4rem 4rem;
+  justify-content: space-between;
+
+  &-cart {
+    width: 12.8rem;
+    height: 26.1rem;
+    align-self: flex-end;
+  }
+
+  &-container {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+  }
+
+  &-text {
+    align-self: center;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    &>h2 {
+      color: $primary-text-pink;
+      font: 400 5rem/5.5rem "Lobster";
+      width: 213px;
+      align-self: flex-end;
+    }
+    &>p {
+      font: 300 2.4rem 'Open Sans Condensed', sans-serif;
+
+      letter-spacing: 3.12px;
+      width: 265px;
+    }
+  }
+
+  &-product {
+    display: flex;
+    width: 50.6rem;
+    justify-content: flex-end;
+    position: relative;
+    &__border {
+      width: 58.6rem;
+      height: auto;
+      z-index: 10;
+    }
+    &__img {
+      position: absolute;
+    }
+  }
+}
